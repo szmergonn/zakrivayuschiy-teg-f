@@ -72,7 +72,7 @@
             
                 </svg>
             </button>
-            <button class="button card__like-button"><span class="button__text">Like</span></button>
+            <button class="button card__like-button button-shadow"><span class="button__text">Like</span></button>
           </div>
         </div>
       </article>
@@ -102,7 +102,7 @@
             
                 </svg>
             </button>
-            <button class="button card__like-button"><span class="button__text">Like</span></button>
+            <button class="button card__like-button button-shadow"><span class="button__text">Like</span></button>
           </div>
         </div>
       </article>
@@ -132,7 +132,7 @@
             
                 </svg>
             </button>
-            <button class="button card__like-button"><span class="button__text">Like</span></button>
+            <button class="button card__like-button button-shadow"><span class="button__text">Like</span></button>
           </div>
         </div>
       </article>
@@ -162,7 +162,7 @@
             
                 </svg>
             </button>
-            <button class="button card__like-button"><span class="button__text">Like</span></button>
+            <button class="button card__like-button button-shadow"><span class="button__text">Like</span></button>
           </div>
         </div>
       </article>
@@ -192,7 +192,7 @@
             
                 </svg>
             </button>
-            <button class="button card__like-button"><span class="button__text">Like</span></button>
+            <button class="button card__like-button button-shadow"><span class="button__text">Like</span></button>
           </div>
         </div>
       </article>
@@ -222,7 +222,7 @@
             
                 </svg>
             </button>
-            <button class="button card__like-button"><span class="button__text">Like</span></button>
+            <button class="button card__like-button button-shadow"><span class="button__text">Like</span></button>
           </div>
         </div>
       </article>
@@ -252,7 +252,7 @@
             
                 </svg>
             </button>
-            <button class="button card__like-button"><span class="button__text">Like</span></button>
+            <button class="button card__like-button button-shadow"><span class="button__text">Like</span></button>
           </div>
         </div>
       </article>
@@ -282,27 +282,31 @@
             
                 </svg>
             </button>
-            <button class="button card__like-button"><span class="button__text">Like</span></button>
+            <button class="button card__like-button button-shadow"><span class="button__text">Like</span></button>
           </div>
         </div>
       </article>
     </main>
 
       <footer class="footer">
-        <button class="button__save" type="button" onclick="window['dialog-id'].showModal();" aria-controls="dialog-id">
-          <img class="footer-img" src="./svg/floppy.svg" alt="дискета">
+        <button class="button__save button-shadow" type="button" onclick="window['dialog-id'].showModal();" aria-controls="dialog-id">
+          <svg class="footer-img" viewBox="0 0 21 21">
+            <use href="./svg/floppy.svg#floppy">
+          </svg>
           <p class="dialog-text-p">Сохранить на память</p>
         </button>
   
         <dialog id="dialog-id">
           <div class="dialog">
             <div class="dialog-title">
-              <img class="dialog-img" src="./svg/floppy.svg" alt="дискета">
+              <svg class="dialog-img" viewBox="0 0 21 21">
+                <use class="dialog-img" href="./svg/floppy.svg#floppy">
+              </svg>
               <p class="dialog-text">Вставьте дискету, чтобы продолжить</p>
             </div>
             <form method="dialog">
-              <button type="button" class="button dialog-button" onclick="window['dialog-id'].close()">
-                <span class="dialog__button">ок</span>
+              <button type="button" class="dialog-button button" onclick="window['dialog-id'].close()">
+                <span class="dialog__button">OK</span>
               </button>
             </form>
           </div>

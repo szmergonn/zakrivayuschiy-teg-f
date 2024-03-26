@@ -12,16 +12,60 @@
   repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px),
   repeating-linear-gradient(to bottom, #000, #000 2px, transparent 2px, transparent 4px),
   linear-gradient(to bottom, #007f0c 0.01%, #004306);
+
+  .button__text {
+    color: var(--accent-color);
+  }
+
+  .footer-img {
+    color: var(--accent-color);
+  }
+
+  .dialog-text-p {
+    color: var(--accent-color);
+  }
 }
 
 :root.theme-light {
   --bg-color: #fff;
   --accent-color: #000;
+  --bg-image: 
+  repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+  repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+  linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+
+  .button__text {
+    color: var(--bg-color);
+  }
+
+  .footer-img {
+    color: var(--bg-color);
+  }
+
+  .dialog-text-p {
+    color: var(--bg-color);
+  };
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #000;
     --accent-color: #00cc14;
-  };
+    --bg-image: 
+  repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px),
+  repeating-linear-gradient(to bottom, #000, #000 2px, transparent 2px, transparent 4px),
+  linear-gradient(to bottom, #007f0c 0.01%, #004306);
+  }
+
+    .button__text {
+      color: var(--accent-color);
+    }
+  
+    .footer-img {
+      color: var(--accent-color);
+    }
+  
+    .dialog-text-p {
+      color: var(--accent-color);
+    };
 }

@@ -47,10 +47,6 @@
   transition: fill 0.3s 0.05s linear;
 }
 
-.like-icon:active .contour {
-  fill: var(--accent-color);
-}
-
 .like-icon .sparks {
   opacity: 0;
   fill: var(--heart-color);

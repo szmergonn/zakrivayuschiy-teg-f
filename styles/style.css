@@ -261,6 +261,10 @@
 }
 
 .button__save {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   width: 306px;
   height: 84px;
@@ -375,11 +379,8 @@ dialog::backdrop {
 }
 
 @media (min-width: 1440px) {
-
   .button__save {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
     gap: 8px;
     width: 335px;
     height: 55px;
@@ -391,4 +392,8 @@ dialog::backdrop {
     margin-bottom: 6px;
   }
 
+  .watermark {
+    top: 27px;
+    right: 27px;
+  }
 }

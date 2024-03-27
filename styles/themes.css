@@ -25,6 +25,10 @@
   .dialog-text-p {
     color: var(--accent-color);
   }
+
+  .dialog__button-text {
+    color: var(--accent-color);
+  }
 }
 
 :root.theme-light {
@@ -46,7 +50,11 @@
 
   .dialog-text-p {
     color: var(--bg-color);
-  };
+  }
+
+  .dialog__button-text {
+    color: var(--bg-color);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -70,5 +78,9 @@
   
     .dialog-text-p {
       color: var(--accent-color);
-    };
+    }
+
+    .dialog__button-text {
+      color: var(--accent-color);
+    }
 }
